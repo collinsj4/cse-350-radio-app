@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263655181936",
+    "project_id": "vaporwave-644ca",
+    "storage_bucket": "vaporwave-644ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263655181936:android:2fc4ad429517f06f8a2eb5",
+        "android_client_info": {
+          "package_name": "com.app.vaporwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263655181936-sapk0tlo63nnugnp4psqegh8rdivnd8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV0pESwdsLTBrPb_tdDaWARwr9jANrd7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263655181936-sapk0tlo63nnugnp4psqegh8rdivnd8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

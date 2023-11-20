@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:foreground="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <View
+        android:layout_width="@dimen/row_spacing"
+        android:layout_height="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/img_content_description"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Image.Rounded" />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/text_title_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

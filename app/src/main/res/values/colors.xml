@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app main color-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorLight">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#5C6BC0</color>
+
+    <color name="colorDarkPrimary">#50b3f4</color>
+    <color name="colorDarkAccent">#50b3f4</color>
+
+    <!--dark theme color-->
+    <color name="colorStatusBarDark">#0F1D24</color>
+    <color name="colorToolbarDark">#222D36</color>
+    <color name="colorBackgroundDark">#101D24</color>
+
+    <!--app tab color-->
+
+    <!--others-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#5f6267</color>
+    <color name="grey_dark">#797979</color>
+    <color name="background_color">#f2f2f2</color>
+    <color name="colorGrey">#e1e1e1</color>
+    <color name="colorPlayButton">#D81B60</color>
+    <color name="progressBarColor">#FFE719</color>
+
+    <color name="navigationActive">#FFFFFF</color>
+    <color name="navigationInactive">#9FA4A7</color>
+
+    <!--do not change this-->
+
+</resources>

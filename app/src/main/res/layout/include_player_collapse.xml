@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_collapse"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mini_player_height"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/bg_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:alpha="0.5"
+        android:background="@drawable/bg_top_shadow_gradient" />
+
+    <LinearLayout
+        android:id="@+id/lyt_collapse_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_radio_small"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/img_content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_artwork"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Image.Rounded" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_album_art_small"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/img_content_description"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Image.Rounded" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_radio_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_metadata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/msg_loading"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:id="@+id/lyt_play_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img_player_previous"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/img_content_description"
+                    android:src="@drawable/ic_skip_previous_black"
+                    app:tint="@color/black" />
+
+                <ImageButton
+                    android:id="@+id/img_player_play"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/img_content_description"
+                    android:src="@drawable/ic_play_arrow_white"
+                    app:tint="@color/black" />
+
+                <ImageButton
+                    android:id="@+id/img_player_next"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/img_content_description"
+                    android:src="@drawable/ic_skip_next_black"
+                    app:tint="@color/black" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress_bar_collapse"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:theme="@style/ProgressBarStyle"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bg_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:alpha="0.1" />
+
+</LinearLayout>

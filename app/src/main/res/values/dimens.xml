@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bottom_navigation_height">58dp</dimen>
+    <dimen name="mini_player_height">72dp</dimen>
+    <dimen name="main_player_padding">30dp</dimen>
+    <dimen name="lyt_margin_bottom">130dp</dimen>
+    <dimen name="btn_overflow_offset">-12dp</dimen>
+
+    <dimen name="row_spacing">6dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+
+    <dimen name="img_width_home_featured">240dp</dimen>
+    <dimen name="img_width_home_category">100dp</dimen>
+    <dimen name="img_width_home_radio">120dp</dimen>
+
+    <dimen name="item_space">6dp</dimen>
+    <dimen name="item_space_large">12dp</dimen>
+    <dimen name="item_no_space">0dp</dimen>
+    <dimen name="text_title_size">15sp</dimen>
+    <dimen name="text_sub_title_size">13sp</dimen>
+
+    <dimen name="item_offset_medium">6dp</dimen>
+
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="img_compact_width">60dp</dimen>
+
+</resources>
